@@ -1,9 +1,54 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
   <diagram name="Página-1" id="VjldiD87ANCUp_pzdfbE">
-    <mxGraphModel>
+    <mxGraphModel dx="2295" dy="2152" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wDhOOOZH9tg6zh6XaoXS-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wDhOOOZH9tg6zh6XaoXS-14" target="wDhOOOZH9tg6zh6XaoXS-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wDhOOOZH9tg6zh6XaoXS-14" value="Frontend" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.bucket;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="558" y="185.75" width="60" height="61.5" as="geometry" />
+        </mxCell>
+        <mxCell id="wDhOOOZH9tg6zh6XaoXS-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wDhOOOZH9tg6zh6XaoXS-15" target="wDhOOOZH9tg6zh6XaoXS-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wDhOOOZH9tg6zh6XaoXS-15" value="DNS" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudfront;fillColor=#F58536;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="698" y="170" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="wDhOOOZH9tg6zh6XaoXS-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wDhOOOZH9tg6zh6XaoXS-17" target="wDhOOOZH9tg6zh6XaoXS-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wDhOOOZH9tg6zh6XaoXS-17" value="pizzaria gateway" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="414" y="170" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="wDhOOOZH9tg6zh6XaoXS-20" value="pizzaria backend" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ecs;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="182.75" width="72" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="wDhOOOZH9tg6zh6XaoXS-21" value="Orders" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.dynamo_db;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="92.25" y="176" width="72" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="wDhOOOZH9tg6zh6XaoXS-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wDhOOOZH9tg6zh6XaoXS-20" target="wDhOOOZH9tg6zh6XaoXS-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wDhOOOZH9tg6zh6XaoXS-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wDhOOOZH9tg6zh6XaoXS-27" target="wDhOOOZH9tg6zh6XaoXS-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wDhOOOZH9tg6zh6XaoXS-27" value="PizzaMan" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-46.75" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="wDhOOOZH9tg6zh6XaoXS-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wDhOOOZH9tg6zh6XaoXS-28" target="wDhOOOZH9tg6zh6XaoXS-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wDhOOOZH9tg6zh6XaoXS-28" value="Trigger Lambda every 2 minutes" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.event_time_based;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="-41.5" width="63" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="wDhOOOZH9tg6zh6XaoXS-32" value="User" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/user.svg;" vertex="1" parent="1">
+          <mxGeometry x="860" y="162.25" width="40.14" height="108.5" as="geometry" />
+        </mxCell>
+        <mxCell id="wDhOOOZH9tg6zh6XaoXS-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wDhOOOZH9tg6zh6XaoXS-32" target="wDhOOOZH9tg6zh6XaoXS-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
